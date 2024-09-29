@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .RaDatagrid-table th, .RaDatagrid-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    /* Ustunlarni yashirish */
+    .RaDatagrid-table td:nth-child(4),
+    .RaDatagrid-table td:nth-child(5),
+    .RaDatagrid-table td:nth-child(6) {
+        display: none;
+    }
+}
+.button_see_all{
+    background-color: #6f6f6f;
+    margin: 10px 0;
+    padding: 5px 20px;
+    color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
